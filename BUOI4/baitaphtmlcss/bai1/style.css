@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    margin: 0
+}
+
+body{
+    font-family: Arial,sans-serif;
+    margin: 20px;
+}
+
+h3{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+a{
+    display: inline-block;
+    background-color: blue;
+    color:white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    margin-bottom: 12px;
+}
+
+.note {
+    display: none;
+}
+
+.tags {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: wheat;
+    padding: 6px 0;
+    width: 90px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 15px;
+}
